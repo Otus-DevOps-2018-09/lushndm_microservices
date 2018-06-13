@@ -1,5 +1,13 @@
 # lushndm_microservices repository
 
+### Homework-18 (monitoring-1)
+ - Tested Prometheus in docker container.
+ - Created config prometheus.yml
+ - Builded docker-compose images for app services and prometheus.
+ - Tested healthchecks.
+ - Started node_exporter docker container. Tested docker-host CPU load.
+ - Pushed images to Docker Hub. https://hub.docker.com/u/lushndm
+
 ### Homework-17 (gitlab-ci-2)
  - Described Dev environment.
  - Described Staging and Production environment.
