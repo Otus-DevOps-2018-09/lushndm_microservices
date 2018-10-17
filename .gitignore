@@ -1,0 +1,22 @@
+variables.json
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
+.deleted/
+*.retry
+ansible/key.json
+ansible/vault.key
+ansible/gce.ini
+key.json
+vault.key
+gce.ini
+jdauphant.nginx
+# Vagrant & molecule
+.vagrant/
+*.log
+*.pyc
+.molecule
+.cache
+.pytest_cache
