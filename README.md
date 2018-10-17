@@ -1,5 +1,13 @@
 # lushndm_microservices repository
 
+### Homework-14 (docker-3)
+ - Divided our application into components: post-py, comment, ui and mongo.
+ - Builded the images with our services. Added network aliases to containers.
+ - Launched our containers on reddit network.
+ - Improved ui image. Rebuilt ui image from ubuntu:16.04.
+ - Improved ui image. Rebuilt ui image from alpine linux.
+ - Created docker volume. Restarted containers with docker volume.
+
 ### Homework-13 (docker-2)
  - Setuped docker-machine and run docker-host gce instance.
  - Builded image Reddit by Dockerfile, start.sh, mongod.conf and db_config.
