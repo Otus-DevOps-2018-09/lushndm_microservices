@@ -1,5 +1,13 @@
 # lushndm_microservices repository
 
+### Homework-15 (docker-4)
+ - None network driver.
+ - Host network driver.
+ - Bridge network driver.
+ - Installed docker-compose. Added docker-compose.yml.
+ - Parametrized docker-compose.yml with .env file.
+ - If you do not set this var, the COMPOSE_PROJECT_NAME defaults to the basename of the project directory.
+
 ### Homework-14 (docker-3)
  - Divided our application into components: post-py, comment, ui and mongo.
  - Builded the images with our services. Added network aliases to containers.
