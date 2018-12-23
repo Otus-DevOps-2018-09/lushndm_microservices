@@ -1,8 +1,0 @@
-REPOSITORY                 TAG                 IMAGE ID            CREATED             SIZE
-yourname/ubuntu-tmp-file   latest              1ddaf2849a0e        3 minutes ago       84.1MB
-nginx                      latest              be1f31be9a87        6 days ago          109MB
-hello-world                latest              4ab4c602aa5e        4 weeks ago         1.84kB
-ubuntu                     18.04               cd6d8154f1e1        4 weeks ago         84.1MB
-
-Образ - шаблон, начальный слой, поверх которого создается контейнер.
-Контейнер создается из образа. В контейнерах содержится все, что нужно для работы приложения.
