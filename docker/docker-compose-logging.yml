@@ -5,15 +5,32 @@ services:
     ports:
       - "24224:24224"
       - "24224:24224/udp"
+    networks:
+      - back_net
+      - front_net
 
   elasticsearch:
-    image: elasticsearch
+    image: elasticsearch:5.6.11-alpine
     expose:
       - 9200
     ports:
       - "9200:9200"
+    networks:
+      - back_net
 
   kibana:
-    image: kibana
+    image: kibana:5.6.12
     ports:
       - "5601:5601"
+    networks:
+      - back_net
+
+networks:
+  back_net:
+    ipam:
+      config:
+        - subnet: 10.0.2.0/24
+  front_net:
+    ipam:
+      config:
+        - subnet: 10.0.1.0/24
