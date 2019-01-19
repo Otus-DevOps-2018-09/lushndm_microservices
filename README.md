@@ -1,5 +1,11 @@
 # lushndm_microservices repository
 
+### Homework-20 (logging-1)
+ - Configured EFK (fluentd, elasticsearch, kibana) stack for collecting, parsing and visualization logs.
+ - Configured json parsing filter for structured logs.
+ - Configured regexp parsing filter and grok_pattern filters for non-structured logs.
+ - Configured Zipkin service for distributed tracing.
+
 ### Homework-19 (monitoring-2)
  - Configured cAdvisor for docker containers monitoring.
  - Started Grafana. Configured dashboards in Grafana for docker containers monitoring.
