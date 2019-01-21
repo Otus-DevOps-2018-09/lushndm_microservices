@@ -11,20 +11,20 @@ services:
           - comment_db
   ui:
     build: ./ui
-    image: ${USERNAME}/ui:${UI_VER}
+    image: ${USER_NAME}/ui:${UI_VER}
     ports:
       - ${PORT_HOST}:${PORT_CONTAINER}/tcp
     networks:
       - front_net
   post:
     build: ./post-py
-    image: ${USERNAME}/post:${POST_VER}
+    image: ${USER_NAME}/post:${POST_VER}
     networks:
       - back_net
       - front_net
   comment:
     build: ./comment
-    image: ${USERNAME}/comment:${COMM_VER}
+    image: ${USER_NAME}/comment:${COMM_VER}
     networks:
       - back_net
       - front_net
