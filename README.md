@@ -1,5 +1,18 @@
 # lushndm_microservices repository
 
+### Homework-17 (gitlab-ci-2)
+ - Described Dev environment.
+ - Described Staging and Production environment.
+ - Added conditions and restrictions by Only.
+ - Added dynamic environments: new-feature and bugfix.
+
+### Homework-16 (gitlab-ci-1)
+ - Prepared installation of Gitlab CI.
+ - Tuned up pipeline.
+ - Tuned up runner.
+ - Prepared repos with reddit-app.
+ - Described stages of CI for reddit-app.
+
 ### Homework-15 (docker-4)
  - None network driver.
  - Host network driver.
