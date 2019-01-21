@@ -1,5 +1,12 @@
 # lushndm_microservices repository
 
+### Homework-19 (monitoring-2)
+ - Configured cAdvisor for docker containers monitoring.
+ - Started Grafana. Configured dashboards in Grafana for docker containers monitoring.
+ - Configured dashboards (Histogram, 95th procentile) in Grafana for app services monitoring.
+ - Configured dashboards in Grafana for business logic monitoring.
+ - Started Alertmanager. Configured alert to Slack channel by webhook from Prometheus.
+
 ### Homework-18 (monitoring-1)
  - Tested Prometheus in docker container.
  - Created config prometheus.yml
