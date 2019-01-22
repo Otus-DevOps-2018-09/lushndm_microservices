@@ -1,5 +1,9 @@
 # lushndm_microservices repository
 
+### Homework-21 (kubernetes-1)
+ - Described App with Kubernetes Deployment manifests.
+ - Configured Kubernetes components manualy during Kubernetes_The_Hard_Way tutorial.
+
 ### Homework-20 (logging-1)
  - Configured EFK (fluentd, elasticsearch, kibana) stack for collecting, parsing and visualization logs.
  - Configured json parsing filter for structured logs.
