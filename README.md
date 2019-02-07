@@ -1,5 +1,10 @@
 # lushndm_microservices repository
 
+### Homework-22 (kubernetes-2)
+ - Configured local environment for Kubernetes by Minikube.
+ - Configured Kubernetes cluster in GKE.
+ - Started Reddit app servces in GKE cluster.
+
 ### Homework-21 (kubernetes-1)
  - Described App with Kubernetes Deployment manifests.
  - Configured Kubernetes components manualy during Kubernetes_The_Hard_Way tutorial.
