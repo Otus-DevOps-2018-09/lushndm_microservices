@@ -6,3 +6,8 @@ service:
 image:
   repository: lushndm/ui
   tag: latest
+
+postHost:
+postPort:
+commentHost:
+commentPort:
