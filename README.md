@@ -1,5 +1,13 @@
 # lushndm_microservices repository
 
+### Homework-23 (kubernetes-3)
+ - Configured LoadBalancer Service
+ - Configured Ingress Service
+ - Configured TLS Termination
+ - Configured Network Policies
+ - Configured PersistentVolumes
+ - Configured PersistentVolumeClaims
+
 ### Homework-22 (kubernetes-2)
  - Configured local environment for Kubernetes by Minikube.
  - Configured Kubernetes cluster in GKE.
