@@ -5,7 +5,10 @@ service:
 
 image:
   repository: lushndm/ui
-  tag: latest
+  tag: master
+
+ingress:
+  class: nginx
 
 postHost:
 postPort:

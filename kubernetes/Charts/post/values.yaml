@@ -5,6 +5,6 @@ service:
 
 image:
   repository: lushndm/post
-  tag: latest
+  tag: master
 
 databaseHost:
