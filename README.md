@@ -1,5 +1,10 @@
 # lushndm_microservices repository
 
+### Homework-24 (kubernetes-4)
+ - Configured Helm
+ - Configured Gitlab in Kubernetes
+ - Started CI/CD pipeline in Kubernetes
+
 ### Homework-23 (kubernetes-3)
  - Configured LoadBalancer Service
  - Configured Ingress Service
