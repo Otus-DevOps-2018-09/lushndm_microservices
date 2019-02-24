@@ -21,4 +21,4 @@ jdauphant.nginx
 .cache
 .pytest_cache
 .env
-
+kubernetes/Gitlab_ci/
