@@ -1,5 +1,9 @@
 # lushndm_microservices repository
 
+### Homework-25 (kubernetes-5)
+ - Configured Prometheus in kubernetes
+ - Configured Prometheus and Grafana for metrics collecting
+
 ### Homework-24 (kubernetes-4)
  - Configured Helm
  - Configured Gitlab in Kubernetes
